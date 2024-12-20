@@ -28,6 +28,7 @@
 
     <div class="items">
       <button mat-button (click)="sortItems()">Sort A-Z</button>
+	  <button mat-button (click)="sortItemsrev()">Sort Z-A</button>
       <div *ngFor="let lstitm of sortedItems" class="item">
         <mat-card>
           <mat-card-header>
