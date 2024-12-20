@@ -1,0 +1,19 @@
+Step 1 - We need create Angular Project / Applicaton
+ng new Mockpage-page-app
+
+Step-2 - Install angular materials
+ng add @angular/material 
+
+Step-2 - Genereate the component which had content
+ng g c Mockpage
+g--generate
+c--Component
+
+Step -3 - After create Mockpage component , will update the UI information
+
+Step -4 - app.module.ts
+Then imported the necessary Angular Material modules in app.module.ts
+
+step-5 - will Build the application
+using -  ng serve
+---Applicaton will run at http://localhost:4200
