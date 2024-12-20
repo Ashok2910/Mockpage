@@ -52,4 +52,7 @@ export class ContentComponent {
   sortItems() {
     this.sortedItems.sort((a, b) => a.name.localeCompare(b.name));
   }
+  sortItemsrev() {
+    this.sortedItems.sort((a, b) => b.name.localeCompare(a.name));
+  }
 }
